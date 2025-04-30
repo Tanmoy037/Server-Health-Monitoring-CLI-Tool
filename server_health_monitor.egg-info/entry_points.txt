@@ -1,0 +1,2 @@
+[console_scripts]
+server-monitor = server_health_monitor.entrypoint:main

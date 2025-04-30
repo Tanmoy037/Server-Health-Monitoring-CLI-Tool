@@ -1,0 +1,33 @@
+# Default configuration for Server Health Monitor
+
+# CPU monitoring settings
+cpu:
+  warning_threshold: 80  # percentage
+  critical_threshold: 90  # percentage
+  check_interval: 5  # seconds
+
+# Memory monitoring settings
+memory:
+  warning_threshold: 80  # percentage
+  critical_threshold: 90  # percentage
+  check_interval: 5  # seconds
+
+# Disk monitoring settings
+disk:
+  warning_threshold: 80  # percentage
+  critical_threshold: 90  # percentage
+  check_interval: 60  # seconds
+  monitored_partitions: ["/"]  # list of partitions to monitor
+
+# Network monitoring settings
+network:
+  check_interval: 5  # seconds
+  warning_threshold: 1000  # KB/s
+  critical_threshold: 2000  # KB/s
+
+# Logging settings
+logging:
+  level: "INFO"
+  file: "server_metrics.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5 
