@@ -2,6 +2,9 @@
 
 A command-line interface (CLI) tool for monitoring server health metrics such as CPU usage, memory consumption, disk space, and network activity.
 
+<img width="1308" alt="Screenshot 2025-04-30 at 11 56 00 PM" src="https://github.com/user-attachments/assets/212a8064-c2fc-434f-bea0-431b79276df8" />
+
+
 ## Project Architecture
 
 ```mermaid
@@ -28,8 +31,6 @@ graph TD
     F --> P[Live Display]
     F --> Q[Historical Reports]
 ```
-
-<img width="1322" alt="Screenshot 2025-04-30 at 11 52 48 PM" src="https://github.com/user-attachments/assets/4925c7e7-c5d3-4d5d-9ce0-13e0cb2298ad" />
 
 ## Project Structure
 
