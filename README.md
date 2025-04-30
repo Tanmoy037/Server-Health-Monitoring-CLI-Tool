@@ -29,6 +29,8 @@ graph TD
     F --> Q[Historical Reports]
 ```
 
+<img width="1322" alt="Screenshot 2025-04-30 at 11 52 48 PM" src="https://github.com/user-attachments/assets/4925c7e7-c5d3-4d5d-9ce0-13e0cb2298ad" />
+
 ## Project Structure
 
 ```
